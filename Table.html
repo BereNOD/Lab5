@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<style>
+		table,
+		table * {
+			border: 1px solid #000;
+		}
+		table {
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Название таблицы</caption>
+		<tr>
+			<th>Заголовок 1</th>
+			<th>Заголовок 2</th>
+			<th>Заголовок 3</th>
+		</tr>
+		<tr>
+			<td>Элемент таблицы 1</td>
+			<td rowspan="2">Элемент таблицы 2</td>
+			<td>Элемент таблицы 3</td>
+		</tr>
+		<tr>
+			<td>Элемент таблицы 4</td>
+			<td>Элемент таблицы 5</td>
+			<td>Элемент таблицы 6</td>
+		</tr>
+		<tr>
+			<td>Элемент таблицы 7</td>
+			<td colspan="2">Элемент таблицы 8</td>
+			<td>Элемент таблицы 9</td>
+		</tr>
+	</table>
+</body>
+</html>
